@@ -4,7 +4,7 @@
   font-weight: 100;
   font-style: normal;
 }
-
+/* FUUl background style */
 .Full-backgraound-colour{
     background-color: #F1F1F3;
 }
@@ -21,6 +21,9 @@ nav ul li{
     list-style: none;
     margin-right: 50px;
 }
+nav li a{
+    text-decoration: none;
+}
 .nav-title{
     font-size: 32px;
     font-weight: bold;
@@ -33,7 +36,7 @@ nav ul li{
     padding: 10px 20px;
     list-style: none;
     border-radius: 8px;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 .nav-btn:hover{
     background-color:#5682a5;
@@ -72,6 +75,12 @@ nav ul li{
     font-size: 18px;
     list-style: none;
     margin-top: 10px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+.bannar-btn:hover{
+    background-color:#5682a5;
+    color: azure;
 }
 /* pillars style */
 .pillars{
@@ -102,4 +111,88 @@ nav ul li{
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
+}
+.future-section{
+    margin: 0 50px;
+
+}
+.future-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.future-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.future-containar{
+    display: flex;
+    justify-content: space-around;
+}
+.future-contant{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 10px;
+    border: 1px solid #D5D6D8;
+}
+.future-sub-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.future-sub-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.7);
+    margin-bottom: 40px;
+}
+.future-btn{
+    background-color: #006A50 ;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+     
+.future-1{
+    background-color: #D5E1F5;
+}
+.future-2{
+    background-color: #C6E4D6;
+}
+.future-3{
+    background-color: #F7EBCF;
+    
+}
+.future-btn-1{
+    background-color: #5490F5;
+    color: #ffffff;
+    transition: 0.7s;
+}
+.future-btn-1:hover{
+    background-color:#0be44c;
+    color: azure;
+}
+.future-btn-2{
+    background-color:#09A15C;
+    color: #ffffff;
+    transition: 0.7s;
+}
+.future-btn-2:hover{
+    background-color:#0be44c;
+    color: azure;
+}
+.future-btn-3{
+    background-color:#FFC239 ;
+    color: #ffffff;
+    transition: 0.7s;
+}
+.future-btn-3:hover{
+    background-color:#0be44c;
+    color: azure;
 }
