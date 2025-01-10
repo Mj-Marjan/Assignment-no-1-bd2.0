@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.fira-sanc-font{
+    font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.Full-backgraound-colour{
+    background-color: #F1F1F3;
+}
+/* nav bar style */
+nav{
+    margin: 0 22px;
+    }
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav-btn{
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #006A50;
+    padding: 10px 20px;
+    list-style: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.nav-btn:hover{
+    background-color:#5682a5;
+    color: azure;
+}
+/* bannar style */
+.bannar{
+    margin: 0 50px;
+    background-color: #C6E4D6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+.bannar-contant{
+   
+}
+.bannar-sub-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 300;
+}
+.bannar-title{
+    color:#0E0E0E;
+    font-size:56px;
+    font-weight: bold;
+}
+.bannar-btn{
+    background-color: #006A50 ;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    list-style: none;
+    margin-top: 10px;
+}
+ 
