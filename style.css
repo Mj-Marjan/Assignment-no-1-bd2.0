@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    
+}
 .fira-sanc-font{
+    margin: -16px 0;
     font-family: "Fira Sans", serif;
   font-weight: 100;
   font-style: normal;
@@ -7,7 +11,6 @@
 /* FUUl background style */
 .Full-backgraound-colour{
     background-color: #F1F1F3;
-    margin: 1px 1px;
 }
 /* nav bar style */
 nav{
@@ -51,10 +54,6 @@ nav li a{
     display: flex;
     justify-content: space-between;
     padding: 40px;
-
-}
-.bannar-contant{
-   
 }
 .bannar-sub-title{
     color: rgba(14, 14, 14, 0.5);
@@ -115,7 +114,6 @@ nav li a{
 }
 .future-section{
     margin: 0 50px;
-
 }
 .future-title{
     font-size: 40px;
@@ -158,8 +156,7 @@ nav li a{
     border-radius: 8px;
     font-size: 16px;
     text-decoration: none;
-}
-     
+}    
 .future-1{
     background-color: #D5E1F5;
 }
@@ -168,7 +165,6 @@ nav li a{
 }
 .future-3{
     background-color: #F7EBCF;
-    
 }
 .future-btn-1{
     background-color: #5490F5;
@@ -331,8 +327,8 @@ nav li a{
     transition: 0.6s;
 }
 .news-btn:hover{
-    background-color: #FFC239;
-    color: #0E0E0E;
+    background-color: #6b71ba;
+    color: #ffffff;
 }
 /* today-section-style */
 .today-section{
@@ -359,22 +355,27 @@ nav li a{
     font-size: 40px;
     font-weight:bold;
     color: rgba(14, 14, 14, 0.8);
-    padding: 20px;
+    padding: 30px;
     border-radius: 16px;
     background-color: #ffffff;
     margin: 10px;
     border: 1px solid #D5D6D8;
+    transition: .4s;
 }
-.money-1{
-    background-color: #C6E4D6;
+.money-1:hover{
+    background-color:#5490F5;
 }
-.money-2{
-    background-color: #09A15C;
+.money-2:hover{
+    background-color: #5490F5;
 }
 .money-3{
-    background-color:#F7EBCF;
+    background-color: #C6E4D6;
+   
 }
-.money-4{
+.money-3:hover{
+    background-color: #ffffff;
+}
+.money-4:hover{
     background-color: #5490F5;
 }
 .ammount{
@@ -399,6 +400,9 @@ nav li a{
     text-decoration: none;
     padding: 10px 15px;
     transition: 0.6s;
+}
+.money-btn:hover{
+    background-color: #5490F5;
 }
 /* footer style */
 footer{
@@ -444,6 +448,9 @@ footer{
     transition: 0.7s;
    border: none;
 }
+.sub-btn:hover{
+    background-color: #5490F5;
+}
 .footer-last-consef{
     font-size: 16px;
     font-weight: 400;
@@ -451,8 +458,9 @@ footer{
 }
 /* outside styles */
 .outside-icon{
-    width: 100%;
+    width: 80%;
     text-align: center;
+    margin-left: 110px;
 }
 .outside-title{
     font-size: 32px;
