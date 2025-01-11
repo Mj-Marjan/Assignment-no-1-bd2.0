@@ -7,6 +7,7 @@
 /* FUUl background style */
 .Full-backgraound-colour{
     background-color: #F1F1F3;
+    margin: 1px 1px;
 }
 /* nav bar style */
 nav{
@@ -398,4 +399,66 @@ nav li a{
     text-decoration: none;
     padding: 10px 15px;
     transition: 0.6s;
+}
+/* footer style */
+footer{
+    margin: 0 50px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.footer-content{
+    text-align: center;
+    padding: 30px;
+}
+.footer-title{
+    font-size:40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.footer-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    max-width: 650px;
+    margin-left: 210px;
+    margin-top: -30px;
+}
+.email-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-adress{
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 1px solid #C6E4D6;
+    border-radius: 0 -20px -20px 0;
+}
+.sub-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color:#006A50;
+    border-radius: 0 20px 20px 0 ;
+    transition: 0.7s;
+   border: none;
+}
+.footer-last-consef{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* outside styles */
+.outside-icon{
+    width: 100%;
+    text-align: center;
+}
+.outside-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.outside-icon img{
+    padding: 10px;
 }
