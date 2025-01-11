@@ -269,3 +269,67 @@ nav li a{
     background-color: #FFC239;
     
 }
+/* news style */
+.recent-news{
+    margin: 20px 50px;
+}
+.recent-news-title{
+    font-size: 40px;
+    font-weight: bold;
+    columns: #0E0E0E;
+}
+.recent-news-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.7) ;
+}
+.bangladesh-news{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.satelight-img{
+    border-radius: 24px;
+    margin: 10px;
+}
+.bangladesh-news-colum{
+    margin: 0 10px;
+}
+.bd-news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.jazzera-img{
+    margin-top: -17px;
+}
+.datetime-content{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-discription{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-btn{
+    background-color: #006A50 ;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px 15px;
+    transition: 0.6s;
+}
+.news-btn:hover{
+    background-color: #FFC239;
+    color: #0E0E0E;
+}
