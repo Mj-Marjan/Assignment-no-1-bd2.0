@@ -333,3 +333,69 @@ nav li a{
     background-color: #FFC239;
     color: #0E0E0E;
 }
+/* today-section-style */
+.today-section{
+    margin: 60px 50px;
+    text-align: center;
+    padding: 10px;
+}
+.today-title{
+    font-size:40px;
+    font-weight: bold;
+    counter-reset:#0E0E0E ;
+}
+.today-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.7);
+}
+.taka{
+    display: flex;
+    justify-content: space-around;
+     
+}
+.money{
+    font-size: 40px;
+    font-weight:bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    margin: 10px;
+    border: 1px solid #D5D6D8;
+}
+.money-1{
+    background-color: #C6E4D6;
+}
+.money-2{
+    background-color: #09A15C;
+}
+.money-3{
+    background-color:#F7EBCF;
+}
+.money-4{
+    background-color: #5490F5;
+}
+.ammount{
+    width: 92%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 43px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    margin-bottom: 30px;
+}
+.money-btn{
+    background-color: #006A50 ;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.6s;
+}
